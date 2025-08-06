@@ -1,0 +1,16 @@
+package com.java;
+import java.util.Scanner;
+class Sample2{
+public static void main(String[]args){
+    Scanner Scan=new Scanner(System.in);
+    
+    int a=Scan.nextInt();
+    int Sum=0;
+    while (true){
+    if(1%2==0){                       
+            Sum=Sum+1;
+        }
+        System.out.println(Sum);
+    }
+    }
+}
