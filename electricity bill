@@ -1,0 +1,24 @@
+package com.java;
+import java.util.Scanner;
+public class switch_case{
+    public static void main(String[]args){
+    Scanner Scan=new Scanner(System.in);
+    System.out.println("enter the unit");
+    int  a=Scan.nextInt();
+    int unit=a/100;
+    
+    
+    switch(unit){
+        case 0:
+        System.out.println(a*4);
+        break;
+        case 1:
+        System.out.println(a*6);
+        break;
+        case 2:
+        System.out.println(a*9);
+    }
+        
+    }
+    
+}
