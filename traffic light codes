@@ -1,0 +1,22 @@
+package com.java;
+import java.util.Scanner;
+public class switch_case{
+    public static void main(String[]args){;
+    Scanner Scan=new Scanner(System.in);
+    System.out.println("enter your traffic sigbnal:red,yellow,green");
+    String Signal=Scan.next();
+    switch(Signal){
+        case "red":
+        System.out.println("stop");
+        break;
+        case"yellow":
+        System.out.println("get ready");
+        case "green":
+        System.out.println("go"); 
+        break;
+        default:
+        System.out.println("mismatch input");
+        
+    }
+    }
+} 
