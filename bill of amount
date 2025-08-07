@@ -1,0 +1,20 @@
+package com.java;
+import java.util.Scanner;
+public class utilexit{
+    public static void main(String[]args){
+    Scanner sc= new Scanner(System.in);
+    int choice;
+    int count=1;
+    int total=0;
+    do{
+        System.out.println("enter the product value :");
+        int a=sc.nextInt();
+        total=total+a;
+        System.out.print(count+".continue?(1to continue/0 to exit):");
+        choice=sc.nextInt();
+        count++;
+    }while(choice!=0);
+    System.out.println("total amount:"+total);
+    System.out.println("exited.");
+    sc.close();
+    }}
