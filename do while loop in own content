@@ -1,0 +1,15 @@
+package com.java;
+import java.util.Scanner;
+class Sample2{
+public static void main(String[]args){
+    Scanner Scan=new Scanner(System.in);
+    int i=10;
+    do{
+        System.out.println("number:"+10);
+        num++;
+    }
+    while(num>=100);
+    System.out.println(i);
+}
+
+}
