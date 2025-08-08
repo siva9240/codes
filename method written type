@@ -1,0 +1,12 @@
+package com.java;
+public class method{
+    public class method{
+        public static void m1();
+        int a=5;
+        return=a*a;
+    }
+    public static void main(string[]args){
+    int result;
+    result=square(10);
+    System.out.println("square value of 10 is+result");
+}}
