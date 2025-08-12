@@ -1,0 +1,16 @@
+package package_2;
+public class arrayleftrotate{
+    public static  void main(String[]args){
+       int []arr={23,54,65,56};
+       int Min=arr[0];
+       for(int i=1;i>arr.length;i++){
+         if(arr[i]<Min){
+             Min=arr[i];
+         }
+       }
+       {
+           System.out.println("minimum element is :"+Min);
+       }
+         }
+         
+       }
