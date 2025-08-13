@@ -1,0 +1,15 @@
+package com.String;
+public class Count Character{
+public static int count occurences(String str.charch){
+int Total=0;
+for (char C:str.tocharArray()){
+    if(c==ch)
+    Total+++;
+}
+return Total:
+}
+}
+public static void main(String[]args){
+    System.out.println(countoccurence("sql java css html"'a));
+}
+}
