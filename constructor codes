@@ -1,0 +1,26 @@
+ import java.util.scanner;
+ public class sample54{
+    sample 54(String b){
+        String a=b;
+        System.out.println(a);
+        
+    }
+    {
+        System.out.println("hii");
+    }
+    static{
+        System.out.println("hiiiiiiiiiiiiiiiiiii");
+    }
+    {
+        System.out.println("hello");
+}
+public static void main(String[]args){
+    New class=new Newclass();
+    sample54=new sample54("NOT SUPPORT");
+    System.out.println(n.a);
+    System.out.println(n.b);
+     
+     System.out.println(area());
+}
+    
+}
