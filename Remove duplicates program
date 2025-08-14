@@ -1,0 +1,15 @@
+import java.util.*;
+
+public class RemoveDuplicates {
+    public static void main(String[] args) {
+        int[] numbers = {23, 54, 67, 54, 87, 98, 23, 1};
+
+        
+        Set<Integer> unique = new LinkedHashSet<>();
+        for (int num : numbers) {
+            unique.add(num);
+        }
+
+        System.out.println("Array without duplicates: " + unique);
+    }
+}
