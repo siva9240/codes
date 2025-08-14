@@ -1,0 +1,16 @@
+public class sample54{
+    sample54(){
+        int b=a;
+        System.out.println(a);
+    }
+    {
+    System.out.println("hii");
+}
+static{
+    System.out.println("hiiiiiiiiiii");
+}
+{
+    System.out.println("hello");
+    
+}
+}
