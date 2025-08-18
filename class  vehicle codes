@@ -1,0 +1,17 @@
+class vehicle {1usage 1inheritor
+void start(){1usage
+System.out.println("vehicle is startingt");
+}
+}
+class cars extends vehicle {2usage
+void drive(){1 usages
+System.0ut.println("car is driving");
+
+}
+public class inheritance{
+    public static void main(String[]args){
+        cars mycar=new cars();
+        mycar.start();
+        mycar.drive();
+    }
+}
