@@ -1,0 +1,14 @@
+class student{ 2 usages
+public string getname(){,usage
+return name;
+}
+
+}
+public class encapsulation{
+    public static void main(string[]args){
+        Student s1=new  Student();
+        s1.set name("shanmuga");
+        System.out println("Student name:"+s1.get name());
+        
+    }
+}
