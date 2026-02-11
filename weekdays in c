@@ -1,0 +1,19 @@
+#include <stdio.h>
+enum Weekday {
+    MONDAY,
+    TUESDAY,
+    WEDNESDAY,
+    THURSDAY,
+    FRIDAY,
+    SATURDAY,
+    SUNDAY
+};
+
+int main() {
+    enum Weekday today = WEDNESDAY;
+
+    if (today == WEDNESDAY) {
+        printf("Today is Wednesday\n");
+    }
+  return 0;
+}
